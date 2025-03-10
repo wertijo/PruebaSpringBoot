@@ -2,6 +2,7 @@ package com.cursojava.curso.models;
 
 public class Usuario {
     //Variables
+    private Long id;
     private String nombre;
     private String apellido;
     private String email;
@@ -9,6 +10,16 @@ public class Usuario {
     private String password;
 
     //Getters y Setters
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getNombre() {
         return nombre;
     }
